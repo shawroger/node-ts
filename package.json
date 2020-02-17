@@ -1,0 +1,17 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "node lib/main.js",
+    "watch": "nodemon lib/main.js",
+    "dev": "parcel watch main.ts --no-cache --no-source-maps --out-dir lib --target node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "typescript": "^3.7.5"
+  }
+}
